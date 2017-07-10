@@ -1,0 +1,156 @@
+*{
+	margin:0;
+	padding: 0;
+}
+/*导航栏*/
+.header-home {
+    box-shadow: 0px 2px 4px rgba(1, 1, 1, 0.15);
+    height: 54px;
+    padding-top: 7px;
+    width: 100%;
+    opacity: 0.85;
+    background-color: #fff;
+}
+.row .header-nav {
+	margin-top: -4px;
+
+}
+.row .header-nav li {
+	list-style: none;
+	background:url(../image/nav-logo.PNG) no-repeat;
+	float: left;
+	line-height:40px;
+	margin-left: 30px;
+	margin-top:2px;
+	width: 100px;
+}
+.row .header-nav a {
+	text-decoration: none;
+    color: #fff;
+    padding-left: 20px;
+    font-size: 14px;
+}
+/*轮播图*/
+.carousel-indicators .active {
+	background-color: #F96908;
+
+}
+.carousel-control img {
+ 	margin-top: 96px;
+ }
+ /*解决方案*/
+.solution{
+	margin:40px 0;
+
+}
+.solution .s-title {
+	text-align: center;
+    margin: 40px;
+}
+.solution .s-title a{
+	font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    font-size: 30px;
+}
+.solution .s-wrap{
+	border-bottom: 1px solid #888686;
+	width: 30%;
+	margin:0 auto;
+
+}
+.s-tupian{
+	list-style: none;
+	float: left;
+	border: 1px solid #F3EEEE;
+	margin-top: 30px;
+}
+.s-tupian p{
+	text-align: center;
+	font-weight: bold;
+}
+/*关于我们*/
+.about{
+	margin: 100px 0;
+
+}
+.a-tupian{
+	list-style: none;
+	float: left;
+	margin-top: 40px;
+	margin-left:50px;
+}
+.a-tupian p{
+	text-align: center;
+	font-weight: bold;
+	font-size: 24px;
+}
+/*新闻资讯*/
+.new{
+	margin-top: 40px;
+}
+.new-left img{
+	width: 530px;
+ 	margin-top: 40px;
+ 	font-size: 16px;
+ }
+ .new-text{
+ 	width: 520px;
+ }
+.new-text span{
+ 	line-height:30px;  
+ 	margin-top: 30px;
+ }
+.new-right ul{
+	margin-top: 10px;
+ 	list-style: none;
+ }
+.new-right ul li{
+	margin: 20px;
+    line-height: 1px;
+    height: 15px;
+    border-bottom: 1px dashed #888686;
+} 
+.new-right ul li span{
+    border: 8px solid transparent;
+    border-left-color:#ff3300;
+    position:absolute;
+    margin: -10px 10px;
+ }
+.new-right ul li  a{
+	text-decoration: none;
+ 	margin-left:35px;
+ 	color: #333;
+ }
+.new-right time{
+	float: right;
+	padding-top: -40px;
+	color: #888686;
+}
+footer{background: #c0c0c0;
+	height: 240px;
+	width: 100%;
+	margin: 0 auto;}
+.photo{
+	padding-top:30px;
+	padding-left:-80px;
+}
+.photo img{
+	padding-left:200px;
+}
+.photo p{
+	line-height:40px;
+	text-align:center;
+	padding-top: 20px;
+	padding-left: -100px;
+	color:#333;
+}
+.code2{
+	padding-top:60px;
+	padding-left:160px;
+}
+.code2 p{
+	color:#000;
+	padding-top: 20px;
+	padding-left: 10px;
+}

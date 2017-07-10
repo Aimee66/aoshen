@@ -1,0 +1,259 @@
+*{
+	margin:0;
+	padding: 0;
+}
+/*头部样式*/
+.all{
+	width: 100%;
+	margin:  0 auto;
+}
+/*导航栏*/
+.header-home {
+    box-shadow: 0px 2px 4px rgba(1, 1, 1, 0.15);
+    height: 54px;
+    padding-top: 7px;
+    width: 100%;
+    opacity: 0.85;
+    background-color: #fff;
+}
+.row .header-nav {
+	margin-top: -4px;
+
+}
+.row .header-nav li {
+	list-style: none;
+	background:url(../image/nav-logo.PNG) no-repeat;
+	float: left;
+	line-height:40px;
+	margin-left: 30px;
+	margin-top:2px;
+	width: 100px;
+}
+.row .header-nav a {
+	text-decoration: none;
+    color: #fff;
+    padding-left: 20px;
+    font-size: 14px;
+}
+.header-nav ul li a:hover{
+	color: #000;
+}
+.box-nav{
+   margin-top: 60px;
+   background: url(../image/16.jpg) no-repeat;
+   height: 150px;
+   margin-left: 360px;
+
+ }
+ .consult{
+	width: 100%;
+	height: 60px;
+	margin-left: 365px;
+	padding-top: 30px;
+}
+ .consult .p1{
+ 	float: left;
+ 	display: inherit;
+	font-weight: bold;
+	display: inline-block；
+ }
+ .consult .p2{
+ 	display: inherit;
+ 	margin-left: 830px;
+ 	display: inline-block； 
+
+}
+ .consult .p2 a{
+ 	text-decoration: none;
+}
+.align{
+	width: 100%;
+	height: 1300px;
+	margin: 0 auto;
+}
+.align .prefac{
+	width: 59%;
+	height: 180px;
+	background-color: #C0C0C0;
+	margin-left: 360px;
+}
+.align .from{
+	width: 59%;
+	height: 50px;
+	margin-top: 20px;
+}
+.align .from label{
+	font-weight: bold;
+}
+.align .from input {
+	height: 28px;
+	padding-left: 10px;
+	color: #A9A9A9;
+}
+.align .software{
+	width: 59%;
+	height: 188px;
+	margin-left: 360px;
+}
+.align .software a{
+	text-decoration: none;
+	color: #696969;
+}
+.align .software a:hover{
+	color: #0000CD;
+}
+.align .software span{
+	margin-top: 20px;
+}
+.align .software p{
+	font-size: 15px;
+	margin-top: 20px;
+}
+.align .from2{
+	width: 59%;
+	height: 50px;
+	margin-top: 20px;
+}
+.align .from2 .time{
+	height: 28px;
+	padding-left: 10px;
+	color: #fff;
+	background-color: #000;
+	font-weight: bold;
+	padding-left:2px;
+}
+.from2 .limit{
+	height: 28px;
+	padding-left: 10px;
+	color: #fff;
+	background-color: #4682B4;
+	font-weight: bold;
+	padding-left:2px;
+}
+
+.align .engineer{
+	width: 59%;
+	height: 170px;
+	margin-left: 360px;
+}
+.align .engineer a{
+	text-decoration: none;
+	color: #696969;
+}
+.align .engineer a:hover{
+	color: #0000CD;
+}
+.align .engineer span{
+	margin-top: 20px;
+}
+.align .engineer p{
+	font-size: 15px;
+	margin-top: 20px;
+}
+.align .from2{
+	width: 59%;
+	height: 50px;
+	margin-top: 20px;
+}
+.align .from2 .time{
+	height: 28px;
+	padding-left: 10px;
+	color: #fff;
+	background-color: #000;
+	font-weight: bold;
+	padding-left:2px;
+}
+.from2 .limit{
+	height: 28px;
+	padding-left: 10px;
+	color: #fff;
+	background-color: #4682B4;
+	font-weight: bold;
+	padding-left:2px;
+}
+.align .manager{
+	width: 59%;
+	height: 230px;
+	margin-left: 360px;
+	margin-top: 10px;
+}
+.align .manager a{
+	text-decoration: none;
+	color: #696969;
+}
+.align .manager a:hover{
+	color: #0000CD;
+}
+.align .manager span{
+	margin-top: 20px;
+}
+.align .manager p{
+	font-size: 15px;
+	margin-top: 20px;
+}
+.align .from2{
+	width: 60%;
+	height: 50px;
+	margin-top: 20px;
+}
+.align .from2 .time{
+	height: 28px;
+	padding-left: 10px;
+	color: #fff;
+	background-color: #000;
+	font-weight: bold;
+	padding-left:2px;
+}
+.from2 .limit{
+	height: 28px;
+	padding-left: 10px;
+	color: #fff;
+	background-color: #4682B4;
+	font-weight: bold;
+	padding-left:2px;
+}
+.footer{
+	width: 100%;
+	height: 240px;
+	background-color: #c0c0c0;
+	float:left;
+	margin-top:260px;
+
+}
+.footer .footer-logo{
+	float: left;
+	margin-left: 400px;
+	
+}
+.footer .footer-link{
+	font-weight:900;
+	padding: 10px;
+	margin-left: 80px;
+	padding-top: 50PX;
+    float: left;
+}
+.footer-link{
+	width: 1100px;
+
+}
+.footer-link img{
+	width: 200px;
+	height: 40px;
+	margin-left: 200px;
+	margin-top: -10px;
+}
+.footer-link p{
+	line-height: 35px;
+	margin-left: 100px;
+	margin-top: 10px;
+	display: inline-block;
+}
+.footer-tupian img{
+	display: inline-block;
+    padding-top: 50px;
+}
+.footer-tupian p{
+	font-weight: bold;
+	font-size: 14px;
+	padding-top: 14px;
+}
